@@ -1,0 +1,28 @@
+.tweet-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.tweet-menu-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.tweet-menu-icons:hover {
+    background-color: rgba(29, 155, 240, 0.1);
+}
+
+.tweet-menu-icons:hover > * {
+    color: #1d9bf0;
+    transition: color 0.3s;
+}
+
+.tweet-menu-icons:hover ~ .tweet-menu-count {
+    color: #1d9bf0;
+    transition: color 0.3s;
+}

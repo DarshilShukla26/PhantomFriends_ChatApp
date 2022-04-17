@@ -1,0 +1,100 @@
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    border-right: 1px solid rgb(240, 240, 240);
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+@media (min-height: 620px) {
+    .sidebar {
+        overflow-y: auto;
+    }
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    transition: background 0.2s;
+}
+
+.sidebarOption:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.sidebarOption > .sidebarIcon {
+    padding: 15px;
+}
+
+.sidebarOption > h2 {
+    font-weight: 400;
+    /* When active change to font 700 */
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.sidebarOptionContainer {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeSidebarOptionContainer {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.activeSidebarOptionContainer > div > * {
+    font-weight: 700;
+}
+
+.activeSidebarOptionContainer:hover > .sidebarOption {
+    background-color: rgb(216, 216, 216);
+}
+
+.sidebarOptionContainer:hover > .sidebarOption {
+    background-color: rgb(216, 216, 216);
+}
+
+.sidebar-profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 10rem;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .sidebar-profile-container {
+        width: 2.5rem;
+        aspect-ratio: 1/1;
+    }
+}
+
+.sidebar-account {
+    display: flex;
+}
+
+.twitterLogo {
+    display: flex;
+}
+
+.twitterLogo > * {
+    cursor: pointer;
+}
