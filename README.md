@@ -7,29 +7,7 @@ Phantom Friends is a social media platform developed using the MERN stack (Mongo
 - MERN Stack (MongoDB, Express.js, React.js, Node.js)
 - Firebase
 
-## Screenshots (will be added soon)
-
-![Screenshot 1](Screenshots/2.jpeg)
-*Screenshot 1: Example of Feed System*
-
-![Screenshot 2](Screenshots/1.jpeg)
-*Screenshot 2: Upload an image*
-
-![Screenshot 3](Screenshots/3.jpeg)
-*Screenshot 3: Example of A Chat Room*
-
-![Screenshot 4](Screenshots/4.jpeg)
-*Screenshot 4:  Example of A Chat Lobby (Shows different chat rooms to navigate to a chat room)*
-
-![Screenshot 5](Screenshots/5.jpeg)
-*Screenshot 5: Example of Reminders/Lists System*
-
-![Screenshot 6](Screenshots/6.jpeg)
-*Screenshot 6:  Example of Bookmarks Page of a user*
-
-![Screenshot 7](Screenshots/7.jpeg)
-*Screenshot 3: Example of A Profile Page*
-
+Screenshots are available.
 
 ## Functionalities
 
