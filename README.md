@@ -4,7 +4,7 @@
 Phantom Friends is a social media platform developed using the MERN stack (Express.js, React.js, Node.js) along with Firebase integration. The platform offers various functionalities including a feed system inspired by X (formerly Twitter), friend management, post saving, and live real-time chat rooms.
 
 ## Technologies Used
-- MERN Stack (MongoDB, Express.js, React.js, Node.js)
+- MERN Stack (Express.js, React.js, Node.js)
 - Firebase
 
 Screenshots are available.
